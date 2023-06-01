@@ -1,0 +1,227 @@
+@font-face {
+    font-family: PT serif regular;
+    src: url(../fonts/PT_Serif-Web-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Quite Chocolatey;
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+    font-family: Couture Bold;
+    src: url(../fonts/couture-bld.otf);
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(../img/Layer\ 13.png);
+    background-color: #c62314;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 160px 0;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+div.menu ul {
+    display: flex;   
+}
+a.menu_in {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat regular";
+    font-size: 18px;
+    border: transparent 0px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;   
+}
+a.menu_in:hover {
+    background-color: #130e27;
+}
+h1 {
+    color: white;
+    font-family: "Montserrat Bold";
+    font-size: 90px;
+    line-height: 80px;
+    text-transform: uppercase;
+    max-width: 530px;
+    margin: 130px 0 40px 20px; 
+}
+span.blue {
+    color: #130e27;
+}
+.header_text {
+    color: white;
+    font-family: "PT serif regular";
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 500px;
+    letter-spacing: 0px;
+    margin-left: 20px;
+}
+.services {
+    background-color: white;
+    padding: 40px 0 70px 0;
+}
+h2 {
+    color: #130e27;
+    font-family: "Couture Bold";
+    font-size: 50px;
+    padding-left: 15px;
+    margin: 0;
+}
+span.red {
+    color: #c62314;
+}
+.icons {
+    display: flex;
+    margin-top: 95px;
+    margin-right: 0; 
+    padding-left: 20px;
+}
+.icons_inner {
+    display: block;
+    text-align: center;  
+}
+i.fa {
+    font-size: 150px;
+    color: #130e27;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+.icons_text {
+    font-family: "PT serif regular";
+    font-size: 20px;
+    line-height: 28px;
+    color: #161616;
+    text-align: center;
+}
+.story {
+    background-color: #130e27;
+    padding: 30px 0 25px 0;   
+}
+.story_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.story_text {
+    color: white;
+    font-family: "PT serif regular";
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 650px;
+    margin: 0 0 0 20px;
+}
+.story_button {
+    border: #c62314 0px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #c62314;
+    height: 65px;
+    width: 270px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    font-family: "Montserrat regular";
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+.prising {
+    background-color: #efefef;
+    padding: 65px 0 65px 0; 
+}
+h2.h_prising {
+    color: #130e27;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: 50px;
+    padding: 0;
+}
+.prising_inner {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+.item {
+    width: 320px;
+    text-align: center;
+    border: transparent 0px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+}
+.name {
+    color: #161616;
+    font-family: "PT serif regular";
+    font-size: 22px;
+    margin: 0;
+    padding: 35px 0 18px 0;
+}
+.cost {
+    color: #c62314;
+    font-family: "Montserrat Bold";
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+.item_inner {
+    color: #161616;
+    font-family: "PT serif regular";
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+button {
+    border: #130e27 0px solid;
+    border-radius: 5px;
+    background-color: #130e27;
+    color: white;
+    width: 205px;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: "Montserrat regular";
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+button:hover {
+    background-color: #c62314;
+}
+.footer {
+    background-color: #130e27;
+    padding: 50px 0 60px 0; 
+}
+.footer_container {
+    max-width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer_inner {
+    color: white;
+    font-family: "PT serif regular";
+    font-size: 20px;
+}
+span.red2 {
+    color: #c62314;
+    font-family: "PT serif regular";
+    font-size: 20px;
+}
